@@ -5,3 +5,5 @@ dotenv
 uvicorn
 sqlalchemy
 pymysql
+bcrypt
+pyJWT
