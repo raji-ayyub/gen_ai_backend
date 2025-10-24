@@ -5,5 +5,4 @@ dotenv
 sqlalchemy
 bcrypt
 pymysql
-alembic
-pyJWT
+pydantic[email]
