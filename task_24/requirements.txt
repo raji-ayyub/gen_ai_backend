@@ -3,3 +3,5 @@ fastApi
 env
 dotenv
 uvicorn
+sqlalchemy
+pymysql

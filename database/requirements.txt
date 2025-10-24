@@ -6,4 +6,5 @@ sqlalchemy
 bcrypt
 pymysql
 alembic
+pymysql
 pyJWT
