@@ -15,7 +15,7 @@ load_dotenv()
 secret_key = os.getenv("secret_key")
 expiry_time = int(os.getenv("token_time"))
 
-def create_token(details):
+def create_token(details, expiry):
     expire = datetime.now() + timedelta(minutes=expiry_time)
 
     details.update({"exp": expire})
